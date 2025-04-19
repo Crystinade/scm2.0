@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+        xmlns:th="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>About Page</title>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Welcome to about page</h1>
+      <p>
+        Hi, welcome to our contact manager application.
+        We are a team of passionate developers who are dedicated to creating the best contact management software.
+        We are committed to providing you with the best experience possible.
+        This contact-managing app helps you to store the contacts in the cloud with up to 1000 storage per account.
+
+      </p>
+    </div>
+    <script>
+      console.log("about page");
+    </script>
+    <script>
+      console.log("second about page script");
+    </script>
+  </body>
+</html>
